@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gradient-to-r from-blue-200 to-pink-200 text-gray-900">
+    <header class="container mx-auto p-5 flex justify-between items-center">
+        <h1 class="text-xl font-bold text-blue-600">Resume Builder</h1>
+        <nav>
+            <ul class="flex space-x-6">
+                <li><a href="#" class="hover:text-blue-600">About Us</a></li>
+                <li><a href="#" class="hover:text-blue-600">Pricing</a></li>
+                <li><a href="#" class="hover:text-blue-600">Contact</a></li>
+                <li><a href="#" class="hover:text-blue-600">Login</a></li>
+            </ul>
+        </nav>
+        <button class="bg-blue-500 text-white px-4 py-2 rounded-full font-semibold hover:bg-blue-600">Build Resume</button>
+    </header>
+    
+    <section class="text-center mt-16">
+        <h2 class="text-5xl font-bold text-blue-600">Craft Your Perfect Resume, Effortlessly</h2>
+        <p class="text-lg mt-4 text-gray-700">Create a professional resume in minutes. Stand out and land your dream job.</p>
+        <div class="mt-6 flex justify-center">
+            <input type="email" placeholder="Enter your email" class="px-4 py-2 rounded-l-full text-gray-800 border border-gray-300 bg-gray-100">
+            <button class="bg-blue-500 text-white px-6 py-2 rounded-r-full font-semibold hover:bg-blue-600">Start Now</button>
+        </div>
+    </section>
+
+    <!-- Image Section -->
+    <section class="container mx-auto mt-12 text-center">
+        <img src="https://i.ibb.co/1f3PQ2B6/Screenshot-5.png" alt="Illustration" class="w-full max-w-3xl mx-auto h-auto rounded-lg shadow-lg">
+    </section>
+
+    <section class="container mx-auto mt-10 p-6 bg-white text-gray-900 rounded-lg shadow-lg">
+        <h2 class="text-3xl font-bold text-center mb-6 text-blue-600">Enter Your Details</h2>
+        
+        <form class="space-y-4">
+            <h3 class="text-xl font-semibold text-blue-600">Personal Information</h3>
+            <input type="text" placeholder="Full Name" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+            <input type="text" placeholder="Phone Number" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+            <input type="email" placeholder="Email Address" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+            <input type="text" placeholder="LinkedIn Profile (optional)" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+            <input type="text" placeholder="Portfolio/Personal Website" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+
+            <h3 class="text-xl font-semibold text-blue-600">Career Objective/Summary</h3>
+            <textarea placeholder="Brief personal statement or career objective" class="w-full p-2 border rounded border-blue-300 bg-gray-100"></textarea>
+
+            <h3 class="text-xl font-semibold text-blue-600">Education</h3>
+            <input type="text" placeholder="Degree" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+            <input type="text" placeholder="University/Institution" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+            <input type="text" placeholder="Graduation Year" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+            <input type="text" placeholder="Relevant Coursework (optional)" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+            <input type="text" placeholder="GPA (if applicable)" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+
+            <h3 class="text-xl font-semibold text-blue-600">Work Experience</h3>
+            <input type="text" placeholder="Job Title" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+            <input type="text" placeholder="Company Name" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+            <input type="text" placeholder="Duration (Start & End Dates)" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+            <textarea placeholder="Responsibilities & Achievements" class="w-full p-2 border rounded border-blue-300 bg-gray-100"></textarea>
+
+            <h3 class="text-xl font-semibold text-blue-600">Skills</h3>
+            <input type="text" placeholder="Technical Skills" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+            <input type="text" placeholder="Soft Skills" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+
+            <h3 class="text-xl font-semibold text-blue-600">Certifications & Training</h3>
+            <input type="text" placeholder="Certifications" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+            <input type="text" placeholder="Online Courses" class="w-full p-2 border rounded border-blue-300 bg-gray-100">
+
+            <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded font-semibold hover:bg-blue-600">Generate Resume</button>
+        </form>
+    </section>
+</body>
+</html> 
